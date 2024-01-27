@@ -58,7 +58,7 @@ ent_score.bind("<Return>",insert)
 ent_score.place(x=120,y=122)
 
 
-lst_student = Listbox(root,width=30,font="Arial 12 bold")
+lst_student = Listbox(root,width=30,font="tahoma 12 bold")
 lst_student.place(x=50,y=200)
 
 
@@ -73,7 +73,8 @@ btndelete.place(x=350,y=250)
 btnfetch = Button(root,text="Fetch",font="Arial 12 bold",command=fetch)
 btnfetch.place(x=350,y=300)
 
-
+btnfetch1 = Button(root,text="Fetch1",font="Arial 12 bold",command=fetch)
+btnfetch1.place(x=350,y=350)
 
 
 
