@@ -50,6 +50,7 @@ lblscore.place(x=50,y=120)
 
 
 ent_name = Entry(root,font="Arial 12 bold")
+ent_name.bind("<Return>",insert)
 ent_name.place(x=120,y=52)
 
 
